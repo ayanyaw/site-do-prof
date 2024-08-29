@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="Novo arquivo vazio.css">
+  <title>Almôndegas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .receita {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+    .botao {
+      background-image: url('https://via.placeholder.com/100');
+      background-size: cover;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+    @media (max-width: 768px) {
+      .container {
+        margin: 20px auto;
+      }
+      .botao {
+        padding: 5px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  ALMÔNDEGAS
+  <div class="container">
+      </ol>
+    </div>
+    <button class="botao" onclick="location.href='a2.html'">Ver página sobre Almôndegas</button>
+    <div id="relogio"></div>
+    <canvas id="canvas" width="200" height="200"></canvas>
+  </div>
+  <script>
+    const relogio = document.getElementById('relogio');
+    setInterval(() => {
+      const data = new Date();
+      relogio.innerText = `${data.getHours()}:${data.getMinutes()}:${data.getSeconds()}`;
+    }, 1000);
+  </script>
+</body>
+</html>

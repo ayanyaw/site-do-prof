@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Curiosidades sobre Almôndegas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .curiosidade {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+    .titulo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .relogio {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Curiosidades sobre Almôndegas</h1>
+    <div class="curiosidade">
+      <h2 class="titulo">Origem das Almôndegas</h2>
+      <p>As almôndegas têm sua origem na Itália, onde são conhecidas como "polpette".</p>
+    </div>
+    <div class="curiosidade">
+      <h2 class="titulo">Tipos de Almôndegas</h2>
+      <p>Existem vários tipos de almôndegas, incluindo as feitas com carne de bovino, de porco, de frango ou de peixe.</p>
+    </div>
+    <div class="curiosidade">
+      <h2 class="titulo">Almôndegas no Mundo</h2>
+      <p>As almôndegas são populares em muitos países, incluindo a Itália, a Espanha, a Grécia e o Brasil.</p>
+    </div>
+    <div class="relogio">
+      <p id="relogio"></p>
+      <script>
+        function atualizarRelogio() {
+          var agora = new Date();
+          var horas = agora.getHours();
+          var minutos = agora.getMinutes();
+          var segundos = agora.getSeconds();
+          document.getElementById("relogio").innerHTML = horas + ":" + minutos + ":" + segundos;
+        }
+        setInterval(atualizarRelogio, 1000);
+      </script>
+    </div>
+  </div>
+  <button class="botao" onclick="location.href='a5.html'">final</button>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Receita de Almôndegas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 40px auto;
+      text-align: center;
+    }
+    .receita {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-bottom: 20px;
+    }
+    .titulo {
+      font-size: 24px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .ingredientes {
+      margin-bottom: 20px;
+    }
+    .modo-de-preparo {
+      margin-bottom: 20px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Receita de Almôndegas</h1>
+    <div class="receita">
+      <h2 class="titulo">Ingredientes:</h2>
+      <ul class="ingredientes">
+        <li>500g de carne moída</li>
+        <li>1 ovo</li>
+        <li>1/2 xícara de pão ralado</li>
+        <li>1/2 xícara de queijo ralado</li>
+        <li>Salsa e temperos à gosto</li>
+      </ul>
+      <h2 class="titulo">Modo de Preparo:</h2>
+      <ol class="modo-de-preparo">
+        <li>Misture todos os ingredientes até formar uma massa homogênea.</li>
+        <li>Faça pequenas bolas com a massa e cozinhe em água quente por 10-15 minutos.</li>
+        <li>Sirva quente com sua escolha de acompanhamento!</li>
+      </ol>
+    </div>
+  </div>
+  <button class="botao" onclick="location.href='a4.html'">Ver curiosidades de Almôndegas</button>
+  <script>
+    const relogio = document.getElementById('relogio');
+    setInterval(() => {
+      const data = new Date();
+      relogio.innerText = `${data.getHours()}:${data.getMinutes()}:${data.getSeconds()}`;
+    }, 1000);
+  </script>
+</body>
+</html>
